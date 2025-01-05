@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 10px; 
 }
 
 .main-div {
@@ -107,6 +108,11 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    .main-div {
+        width: 100%; 
+        height: auto; 
+        
+    }
     .left-div{
         width: 100%;
         border-radius: 0%;
@@ -119,4 +125,5 @@ button:hover {
         border-bottom-right-radius: 12px;
         border-bottom-left-radius: 12px;
     }
+   
 }
