@@ -7,6 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     padding: 10px; 
+    flex-direction: column;
 }
 
 .main-div {
@@ -109,9 +110,13 @@ button:hover {
 
 @media (max-width: 768px) {
     .main-div {
-        width: 100%; 
+        width: 90%; 
         height: auto; 
-        
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
     }
     .left-div{
         width: 100%;
@@ -119,6 +124,7 @@ button:hover {
     }
     .left-div button{
         width: 100%;
+        
     }
     .right-div{
         width: 100%;
